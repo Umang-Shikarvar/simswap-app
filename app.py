@@ -3,10 +3,7 @@ import streamlit as st
 from PIL import Image
 
 def swap_faces(source_path, target_path):
-    simswap_dir = "/Users/umangshikarvar/Desktop/DeepFake/SimSwap"
     output_dir = "output"
-    os.makedirs(os.path.join(simswap_dir, output_dir), exist_ok=True)
-    os.chdir(simswap_dir)
 
     os.system(
         f"python3 test_one_image.py "
