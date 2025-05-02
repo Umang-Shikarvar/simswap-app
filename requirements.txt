@@ -2,7 +2,7 @@
 tensorflow==2.18.0
 torch==2.6.0
 torchvision==0.21.0
-opencv-python-headless==4.10.0.84  # Headless version avoids GUI issues on Streamlit Cloud
+opencv-python-headless  
 ultralytics==8.3.75
 ultralytics-thop==2.0.14
 
