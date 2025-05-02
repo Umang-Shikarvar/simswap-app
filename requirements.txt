@@ -1,12 +1,11 @@
-# Core ML/DL (keep pinned for compatibility)
-tensorflow==2.16.1
-torch==2.3.0
-torchvision==0.18.0
-numpy>=1.26.4,<2.0.0
+# Core ML/DL 
+tensorflow
+torch
+torchvision
+numpy
 
 # Computer Vision (essential pin)
-opencv-python-headless==4.9.0.80
-
+opencv-python-headless
 # NLP Stack 
 spacy
 spacy-legacy
@@ -14,11 +13,8 @@ thinc
 blis
 
 # Web/API Framework
-Flask==3.0.2
-Flask-Cors==4.0.1
-
-# Streamlit Core (required pin)
-streamlit==1.44.1
+Flask
+Flask-Cors
 
 # Remaining packages (version-free for auto-resolution)
 absl-py
