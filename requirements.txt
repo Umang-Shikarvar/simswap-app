@@ -64,8 +64,7 @@ narwhals==1.34.1
 nest-asyncio==1.6.0
 networkx==3.4.2
 numpy==2.0.2
-pip uninstall opencv-python -y
-pip install opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
 opt_einsum==3.4.0
 optree==0.13.1
 packaging==24.1
