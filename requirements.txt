@@ -1,6 +1,6 @@
 matplotlib
 numpy
-opencv-python-headless
+opencv_python
 Pillow
 scipy
 seaborn
