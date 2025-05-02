@@ -21,8 +21,8 @@ scipy==1.15.1
 pyarrow==19.0.1
 
 # --- NLP / SpaCy ---
-spacy==3.8.2
-thinc==8.3.2
+spacy==3.5.4
+thinc==8.1.10
 srsly==2.4.8
 blis==1.0.1
 cymem==2.0.10
