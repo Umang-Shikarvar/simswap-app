@@ -1,4 +1,3 @@
-import cv2
 import torch
 import fractions
 import numpy as np
@@ -78,4 +77,4 @@ if __name__ == '__main__':
 
         output = output*255
 
-        cv2.imwrite(opt.output_path + 'result.jpg', output)
+        Image.fromarray(output.astype(np.uint8)).save(opt.output_path + 'result.jpg')
