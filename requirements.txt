@@ -2,7 +2,8 @@
 tensorflow==2.18.0
 torch==2.6.0
 torchvision==0.21.0
-numpy opencv-python-headless
+numpy
+opencv-python-headless
 ultralytics==8.3.75
 ultralytics-thop==2.0.14
 
