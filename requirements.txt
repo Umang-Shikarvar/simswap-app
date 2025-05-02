@@ -1,9 +1,9 @@
-matplotlib==3.10.0
-numpy==2.0.2
-Pillow==11.0.0
-scipy==1.15.1
-seaborn==0.13.2
-streamlit==1.44.1
+matplotlib
+numpy
+Pillow
+scipy
+seaborn
+streamlit
 torch==2.6.0
 torchvision==0.21.0
-tqdm==4.67.1
+tqdm
