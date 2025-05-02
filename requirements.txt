@@ -7,11 +7,11 @@ numpy>=1.26.4,<2.0.0
 # Computer Vision (essential pin)
 opencv-python-headless==4.9.0.80
 
-# NLP Stack (version-locked for compatibility)
+# NLP Stack 
 spacy
-spacy-legacy==3.0.12
-thinc==8.3.2
-blis==0.9.0
+spacy-legacy
+thinc
+blis
 
 # Web/API Framework
 Flask==3.0.2
